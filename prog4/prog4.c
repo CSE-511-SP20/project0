@@ -10,7 +10,7 @@ void allocate()
 {
     int i;
     int *p;
-    for(i =1 ; i<1000000 ; i++)
+    for(i =1 ; i<100000 ; i++)
     {
       p = malloc(500 * sizeof(int));
       if(func(i)) { free (p);}
